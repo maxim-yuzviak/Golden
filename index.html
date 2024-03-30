@@ -5,56 +5,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Golden</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/eic2tcr.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
     <header>
-        <i>Golden</i>
+        <i class="logo">Golden</i>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#" class="header-link">Home</a></li>
+            <li><a href="#" class="header-link">Services</a></li>
+            <li><a href="#" class="header-link">Portfolio</a></li>
+            <li><a href="#" class="header-link">About</a></li>
+            <li><a href="#" class="header-link">Contact</a></li>
         </ul>
     </header>
     <main>
-        <h1>SERVICES</h1>
-        <p>Proin iaculis purus consequat sem cure.</p>
+        <h1 class="title">SERVICES</h1>
+        <p class="sub-title">Proin iaculis purus consequat sem cure.</p>
         <ul>
             <li>
                 <img src="img/Korzinka.png" alt="Korzinka">
-                <h3>E-Commerce</h3>
-                <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus
+                <h3 class="title">E-Commerce</h3>
+                <p class="sub-title-blocks">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus
                     posuere odio in tincidunt.</p>
             </li>
             <li>
                 <img src="img/computer.png" alt="Computer">
-                <h3>Responsive Web</h3>
-                <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus
+                <h3 class="title">Responsive Web</h3>
+                <p class="sub-title-blocks">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus
                     posuere odio in tincidunt.</p>
             </li>
             <li>
                 <img src="img/zamok.png" alt="zamók">
-                <h3>Web Security</h3>
-                <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus
+                <h3 class="title">Web Security</h3>
+                <p class="sub-title-blocks">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus
                     posuere odio in tincidunt.</p>
             </li>
         </ul>
     </main>
-    <footer>
-        <h1>Contact us</h1>
-        <p>Proin iaculis purus consequat sem cure.</p>
+    <footer class="footer">
+        <h1 class="title contact">Contact us</h1>
+        <p class="sub-title">Proin iaculis purus consequat sem cure.</p>
         <form action="">
-            <input type="text" id="user-name" name="Name" placeholder="Your name*">
+            <input type="text" id="user-name" name="Name" placeholder="Your name*" class="inputs">
             <br>
-            <input type="email" id="user-email" name="email" placeholder="You email*">
+            <input type="email" id="user-email" name="email" placeholder="You email*" class="inputs">
             <br>
-            <input type="text" id="Subject" placeholder="Subject">
+            <input type="text" id="Subject" placeholder="Subject" class="inputs">
             <br>
-            <textarea name="" id="comment" cols="30" rows="10" placeholder="Your message*"></textarea>
+            <textarea name="" id="comment" cols="30" rows="10" placeholder="Your message*" class="inputs"></textarea>
             <br>
-            <button>Send message</button>
+            <button class="button">Send message</button>
         </form>
     </footer>
 

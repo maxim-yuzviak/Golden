@@ -1,0 +1,62 @@
+:root {
+    --main-color: #FED136;
+    --title-color: #222222;
+    --sub-title-color: #777777;
+    --form-title: #ffffff;
+    --input-color: #BBBBBB;
+    --button-title: #ffffff;
+    --background-color: #222222;
+}
+
+.sub-title {
+    font-family: "droid-serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #777777;
+}
+
+.logo {
+    font-family: "Bilbo Swash Caps", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: #FED136;
+}
+.header-link {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.sub-title-blocks {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.footer {
+    background-color: #222222;
+}
+.contact {
+   color: #ffffff; 
+}
+.button {
+    background-color: #FED136;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.inputs {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
