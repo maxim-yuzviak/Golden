@@ -12,51 +12,68 @@
     font-family: "droid-serif", serif;
     font-weight: 400;
     font-style: normal;
-    color: #777777;
+    color: var(--sub-title-color);
 }
 
 .logo {
     font-family: "Bilbo Swash Caps", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 50px;
-    color: #FED136;
+    font-size: 36px;
+    color: var(--main-color);
+    margin-left: 237px;
+    margin-top: 35px;
+    position: absolute;
 }
+
 .header-link {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    margin-left: 690px;
+    margin-top: 35px;
 }
+
 .title {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+
 }
+
 .sub-title-blocks {
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
+
 .footer {
-    background-color: #222222;
+    background-color: var(--background-color);
 }
+
 .contact {
-   color: #ffffff; 
+    color: var(--button-title);
+    margin-top: 92px;
+    margin-left: 750px;
 }
+
 .button {
-    background-color: #FED136;
-    color: #ffffff;
+    background-color: var(--main-color);
+    color: var(--button-title);
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
 }
-.inputs {
+::placeholder {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+}
+.sub-title-contact {
+    margin-left: 700px;
 }
