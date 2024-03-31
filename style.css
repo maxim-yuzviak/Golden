@@ -11,8 +11,12 @@
 .sub-title {
     font-family: "droid-serif", serif;
     font-weight: 400;
-    font-style: normal;
     color: var(--sub-title-color);
+    color: rgb(119, 119, 119);
+    font-style: italic;
+    font-size: 16px;
+    line-height: -1px;
+    letter-spacing: 0px;
 }
 
 .logo {
@@ -21,9 +25,7 @@
     font-style: normal;
     font-size: 36px;
     color: var(--main-color);
-    margin-left: 237px;
-    margin-top: 35px;
-    position: absolute;
+    text-decoration: none;
 }
 
 .header-link {
@@ -31,16 +33,24 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    margin-left: 690px;
-    margin-top: 35px;
+    text-decoration: none;
+    color: var(--main-color);
+    font-size: 14px;
+    line-height: 41px;
+    letter-spacing: 0px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .title {
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-
+    color: var(--title-color);
+    font-size: 40px;
+    line-height: 75px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
 }
 
 .sub-title-blocks {
@@ -48,6 +58,10 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    color: var(--sub-title-color);
+    font-size: 14px;
+    line-height: -1px;
+    letter-spacing: -0.35px;
 }
 
 .footer {
@@ -56,8 +70,11 @@
 
 .contact {
     color: var(--button-title);
-    margin-top: 92px;
-    margin-left: 750px;
+    color: var(--form-title);
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
 }
 
 .button {
@@ -67,13 +84,43 @@
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
 }
+
 ::placeholder {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    color: var(--input-color);
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.35px;
+    text-transform: uppercase;
 }
+
+.header-item {
+    list-style: none;
+}
+
+.title-blocks {
+    color: var(--title-color);
+    font-size: 18px;
+    line-height: 75px;
+    letter-spacing: -0.45px;
+}
+
+.blocks-item {
+    list-style: none;
+}
+
 .sub-title-contact {
-    margin-left: 700px;
+    color: var(--sub-title-color);
+    font-style: italic;
+    font-size: 16px;
+    line-height: -1px;
+    letter-spacing: 0px;
 }
