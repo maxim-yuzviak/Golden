@@ -66,6 +66,7 @@
 
 .footer {
     background-color: var(--background-color);
+    padding-top: 92px;
 }
 
 .contact {
@@ -88,6 +89,7 @@
     line-height: 22px;
     letter-spacing: 0px;
     text-transform: uppercase;
+
 }
 
 ::placeholder {
@@ -123,4 +125,22 @@
     font-size: 16px;
     line-height: -1px;
     letter-spacing: 0px;
+    margin-bottom: 74px;
+}
+.container {
+    width: 933px;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
+.input-form {
+    margin-bottom: 28px;
+}
+.info {
+    margin-bottom: 119px;
+}
+.header {
+    margin-bottom: 109px;
+}
+.service {
+    margin-bottom: 8.5px;
 }
